@@ -19,6 +19,8 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
+.clearfix{
+clear:both;}
 /**/
 .lh54 {
 	line-height: 54px !important;
@@ -116,7 +118,7 @@ a {
 }
 .tab {
 	display:inline-block;
-	& label {
+	& a.tab-click, & label {
 		width: 220px;
 		height: 100px;
 		display: block;
@@ -230,7 +232,9 @@ border-color: $bp-text-blue transparent transparent transparent;
 }
 }
 .open {
-	height: 650px;
+	height:100%;
+	box-sizing:border-box;
+	max-height: 750px;
 }
 .active {
   background: $bp-text-blue !important;
