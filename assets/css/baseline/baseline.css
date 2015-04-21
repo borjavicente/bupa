@@ -1,0 +1,316 @@
+/*Reset*/
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\000037}}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\000038}}
+body {
+  line-height: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\000039}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000310}}
+nav ul {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000311}}
+blockquote, q {
+  quotes: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000312}}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000313}}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000314}}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000315}}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000316}}
+del {
+  text-decoration: line-through; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000317}}
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000318}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000319}}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000320}}
+input, select {
+  vertical-align: middle; }
+
+/**/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000323}}
+.lh54 {
+  line-height: 54px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000326}}
+.lh18 {
+  line-height: 18px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000329}}
+.f42 {
+  font: normal 42px Helvetica Neue;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000333}}
+.f32 {
+  font: normal 32px Helvetica Neue;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000337}}
+.f24 {
+  font: normal 24px Helvetica Neue;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000341}}
+.f20 {
+  font: normal 20px Helvetica Neue;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000345}}
+.f18 {
+  font: normal 18px Helvetica Neue;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000349}}
+.f16 {
+  font: normal 16px Helvetica Neue;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000353}}
+.f14 {
+  font: normal 14px Helvetica Neue;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000357}}
+.f11 {
+  font: normal 11px Helvetica Neue;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000361}}
+.pT20 {
+  padding-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000364}}
+.pT40 {
+  padding-top: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000367}}
+.pL130 {
+  padding-left: 130px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000371}}
+.cGrey {
+  color: #424242 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000376}}
+.tabs {
+  background-color: #F2F7FB;
+  position: relative;
+  min-height: 372px;
+  clear: both;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000384}}
+.bp-container {
+  margin: 0 auto;
+  width: 1400px;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000388}}
+  .bp-container .bp-logo {
+    width: 71px;
+    height: 71px;
+    margin-bottom: -25px;
+    margin-left: 15px;
+    z-index: 1;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000396}}
+  .bp-container .bp-header {
+    margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\0000398}}
+    .bp-container .bp-header .bp-header-content {
+      background-image: url(../../img/header2.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100% 550px;
+      height: 550px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003104}}
+      .bp-container .bp-header .bp-header-content > * {
+        padding-left: 110px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003107}}
+      .bp-container .bp-header .bp-header-content ul {
+        list-style: circle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003114}}
+a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003117}}
+.tab {
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003119}}
+  .tab label {
+    width: 220px;
+    height: 100px;
+    display: block;
+    line-height: 100px;
+    background: #ffffff;
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+    cursor: pointer;
+    color: #0079C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003130}}
+    .tab label .aspa {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 12px 6px 0 6px;
+      border-color: #00335B transparent transparent transparent;
+      position: absolute;
+      bottom: -12px;
+      left: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003141}}
+  .tab [type=radio], .tab .hide {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003146}}
+.bp-content {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003148}}
+  .bp-content h2 {
+    color: #00335B !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003151}}
+  .bp-content p {
+    color: #333333 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003152}}
+    .bp-content p a {
+      color: #008ED2 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003157}}
+  .bp-content .bp-content-bottom {
+    height: 185px;
+    margin: 40px 215px;
+    border-bottom: 1px solid #979797;
+    border-top: 1px solid #979797; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003163}}
+  .bp-content span {
+    margin-top: 70px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003165}}
+    .bp-content span.fLeft {
+      margin-left: 175px;
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003169}}
+    .bp-content span.fRight {
+      margin-right: 175px;
+      float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003175}}
+.bp-footer {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003177}}
+  .bp-footer ul, .bp-footer p, .bp-footer li a {
+    color: #6C6E71 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003178}}
+    .bp-footer ul li, .bp-footer p li, .bp-footer li a li {
+      display: inline-block;
+      padding-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003184}}
+  .bp-footer p {
+    padding-bottom: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003188}}
+.content {
+  width: 880px;
+  position: absolute;
+  top: 245px;
+  margin-left: -440px;
+  left: 50%;
+  bottom: 0;
+  padding: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003196}}
+  .content label, .content label a {
+    background-color: #DE5408;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    left: 50%;
+    margin-left: -80px;
+    color: #ffffff;
+    margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003206}}
+  .content h2, .content h2 a {
+    color: #00335B !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003209}}
+  .content p, .content p a {
+    color: #424242 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003212}}
+  .content .label-1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: auto;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003218}}
+  .content span {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 49%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003223}}
+  .content .fLeft {
+    border-right: 1px solid #979797;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003227}}
+  .content .fRight {
+    float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003232}}
+.open {
+  height: 650px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003235}}
+.active {
+  background: #00335B !important;
+  color: #ffffff !important; }
+
+/*# sourceMappingURL=baseline.css.map */

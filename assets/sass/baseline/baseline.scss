@@ -1,0 +1,241 @@
+@import '../common/fonts';
+@import '../common/colors';
+/*Reset*/
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/**/
+.lh54 {
+	line-height: 54px !important;
+}
+.lh18 {
+	line-height: 18px !important;
+}
+.f42 {
+	font: $bp-font-42;
+	color: $bp-white;
+}
+.f32 {
+	font: $bp-font-32;
+	color: $bp-white;
+}
+.f24 {
+	font: $bp-font-24;
+	color: $bp-white;
+}
+.f20 {
+	font: $bp-font-20;
+	color: $bp-white;
+}
+.f18 {
+	font: $bp-font-18;
+	color: $bp-white;
+}
+.f16 {
+	font: $bp-font-16;
+	color: $bp-white;
+}
+.f14 {
+	font: $bp-font-14;
+	color: $bp-white;
+}
+.f11 {
+	font: $bp-font-11;
+	color: $bp-white;
+}
+.pT20 {
+	padding-top: 20px;
+}
+.pT40 {
+	padding-top:40px;
+}
+.pL130 {
+	padding-left:130px !important;
+}
+
+.cGrey {
+	color: $bp-text-grey !important;
+}
+
+
+.tabs {
+	background-color: $bp-bg-grey;
+	position:relative;
+	min-height:372px;
+	clear:both;
+	text-align:center;
+
+}
+.bp-container {
+	margin: 0 auto;
+	width:1400px;
+	height:100%;
+	& .bp-logo {
+		width: 71px;
+		height: 71px;
+		margin-bottom: -25px;
+		margin-left: 15px;
+		z-index: 1;
+		position:relative;
+	}
+	& .bp-header{
+		margin-top: 10px;
+		& .bp-header-content {
+			background-image : url(../../img/header2.png);
+			background-repeat :  no-repeat;
+			background-position:  center center;
+			background-size : 100% 550px;
+			height: 550px;
+			& > * {
+				padding-left: 110px;
+			}
+			& ul {
+				list-style: circle;
+			}
+		}
+	} 
+
+}
+a {
+	text-decoration:none;
+}
+.tab {
+	display:inline-block;
+	& label {
+		width: 220px;
+		height: 100px;
+		display: block;
+		line-height: 100px;
+		background: $bp-white; 
+	  margin-left: -1px; 
+	  position: relative;
+	  left: 1px; 
+	  cursor: pointer;
+	  color:$bp-blue;
+	  & .aspa {
+	  	width: 0;
+height: 0;
+border-style: solid;
+border-width: 12px 6px 0 6px;
+border-color: $bp-text-blue transparent transparent transparent;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+	  }
+	}
+	& [type=radio], .hide {
+		display: none;
+	}
+}
+
+.bp-content {
+	text-align:center;
+	& h2{
+		color: $bp-text-blue !important;
+	}
+	& p {
+		& a {
+			color: $bp-text-link !important;
+		}
+		color: $bp-dark-grey-2 !important;
+	}
+	& .bp-content-bottom {
+		height: 185px;
+		margin: 40px 215px;
+		border-bottom: 1px solid $bp-border-color;
+		border-top: 1px solid $bp-border-color;
+	}
+	 & span {
+	 	margin-top: 70px;
+	 	&.fLeft {
+			margin-left:175px;
+			float: left;
+		}
+		&.fRight {
+			margin-right:175px;
+			float: right;
+		}
+	 }
+}
+.bp-footer {
+	text-align:center;
+	& ul, & p, & li a {
+		& li {
+			display: inline-block;
+			padding-left:20px;
+		}
+		color: $bp-color-text-footer !important;
+	}
+	& p {
+		padding-bottom:40px;
+	}
+}
+.content {
+	width:880px;
+  position: absolute;
+  top: 245px;
+  margin-left: -440px;
+  left: 50%;
+  bottom: 0;
+  padding: 20px;
+  & label, & label a {
+  	background-color:$bp-bg-label;
+  	width: 160px;
+  	height: 50px;
+  	  line-height: 50px;
+  left: 50%;
+  margin-left: -80px;
+  color: $bp-white;
+  margin-top: 30px;
+  }
+  & h2, & h2 a {
+  	color: $bp-text-blue !important;
+  }
+  & p, & p a {
+  	color: $bp-text-grey !important;
+  }
+  & .label-1 {
+  	margin-bottom: 40px;
+  margin-top: 40px;
+  width: auto;
+  display: block;
+  }
+  & span {
+  	margin-bottom: 40px;
+  margin-top: 40px;
+  	width: 49%;
+  }
+  & .fLeft {
+  	border-right: 1px solid $bp-border-color;
+	float: left;
+}
+& .fRight {
+  
+	float: right;
+}
+}
+.open {
+	height: 650px;
+}
+.active {
+  background: $bp-text-blue !important;
+  color: $bp-white !important;
+}
+// [type=radio]:checked ~ label ~ .content {
+//   z-index: 1;
+// }
