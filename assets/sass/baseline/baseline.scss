@@ -231,10 +231,11 @@ border-color: $bp-text-blue transparent transparent transparent;
 	float: right;
 }
 }
+.open-high {
+	height:750px;
+}
 .open {
-	height:100%;
-	box-sizing:border-box;
-	max-height: 750px;
+	height:600px;
 }
 .active {
   background: $bp-text-blue !important;

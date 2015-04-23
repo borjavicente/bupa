@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+ARIA 1.0//EN" "http://www.w3.org/WAI/ARIA/schemata/xhtml-aria-1.dtd">
 <html>
 
 <head>
@@ -64,7 +64,7 @@
             </div>
             <div class="tab" class="f14" role="complementary">
                 <input type="radio" id="tab-3" name="tab-group-1" />
-                <a role="link" role="tab" tabindex="5" for="tab-3" class="f14 tab-click">REST OF THE WORLD <span class="aspa hide"></span></a>
+                <a role="link" role="tab" tabindex="5" for="tab-3" class="f14 tab-click high">REST OF THE WORLD <span class="aspa hide"></span></a>
                 <div role="tabpanel" class="content hide">
                     <h2 class="f42">Rest of the World</h2>
                     <p class="f16">Getting a quote for International Health Insurance couldn’t be easier
@@ -129,7 +129,11 @@
                 return null;
             }
         }
-        $('.tabs').addClass('open')
+        if($(this).hasClass('high')) {
+            $('.tabs').removeClass('open').addClass('open-high')
+        }else{
+            $('.tabs').removeClass('open-high').addClass('open')
+        }
         $('.active').removeClass('active');
         $('.content, .aspa').addClass('hide');
         $(this).find('.aspa').removeClass('hide');

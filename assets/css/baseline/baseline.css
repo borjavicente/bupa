@@ -309,12 +309,14 @@ a {
     float: right; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003234}}
-.open {
-  height: 100%;
-  box-sizing: border-box;
-  max-height: 750px; }
+.open-high {
+  height: 750px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003237}}
+.open {
+  height: 600px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esnebovi\/Documents\/sites\/BUPA\/assets\/sass\/baseline\/baseline\.scss}line{font-family:\00003240}}
 .active {
   background: #00335B !important;
   color: #ffffff !important; }
